@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background: url(img/photographer.jpg) no-repeat center/cover;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .text{
+   border-style: groove;
+   border-color: rgb(255, 255, 255);
+   color: white;
+   padding-left: 20px;
+   padding-right: 20px;
+   font-size: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner .text .head p {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.banner .text p{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+ }
+
+ .hero ul{
+    margin-top: 15px;
+ }
+
+.hero ul li{
+    display: flex;
+   flex-direction: row;
+}
+
+.hero ul li{
+   display: inline-flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(211, 206, 199);
+   margin-left: 35px;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-right: 40px;
+}
+
+.hero ul li a{
+    display: flex;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: black;
+    letter-spacing: 4px;
+    padding: 10px 5px 10px 5px;
+}
+ 
+.hero ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images .img img{
+   width: 100%;
+}
+
+.body5{
+  background-color: rgb(219, 215, 215);
+  padding: 5px 40px 5px 40px ;
+  margin: 5px 210px 5px 210px;
+}
+
+.body5 .contact1 {
+    text-align: center;
+    font-size: 35px; 
+}
+
+.body5 .body {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.body5 form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.body5 form .lain {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.body5 form .lain label {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.body5 form .lain input{
+    height: 35px;
+    border: none;
+}
+
+.body5 form .send{
+    height: 35px;
+    border: none;
+    background-color: rgb(93, 91, 91);
+}
+.body5 form .send:hover{
+  background-color: rgb(224, 206, 182);
+}
+
+.body5 .sun{
+    padding-top: 40px;
+    font-size: 16px;
+}
+
+.body5 .sun a{
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+ .body5{
+    background-color: rgb(219, 215, 215);
+    padding: 5px 40px 5px 40px ;
+    margin: 5px 10px 5px 10px;
+  }
+}
+
+
+@media screen and (max-width:320px) {    
+     .banner .text .head p {
+         font-size: 30px;
+      }
+     
+     .banner .text p{
+         font-size: 15px;
+      }
+    
+    .hero ul li a{
+        letter-spacing: 0px;
+        padding: 10px 7px;
+    }
+
+    .body5 .body {
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0px;
+    }
+}
+
